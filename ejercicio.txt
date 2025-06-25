@@ -1,0 +1,11 @@
+Elabora un app que permita registrar los datos de un estudiante: cif, nombres, apellidos, carrera, promedio.
+El estudiante puede solicictar una bea si posee un promedio mayor a 85% .
+La tabla para beca es la siguiente:
+promedio mayor a 85 y menor o igual a 90, se otorga un 25%
+promedio mayor a 90 y menor o igual a 95, se otorga un 50%
+promedio mayor a 95 y menor o igual a 98, se otorga un 75%
+promedio mayor a 98 y menor o igual a 100, se otorga un 100%
+
+Se debe crear un correo electronico con las primeras 3 letras de los apellidos, un guion bajo y las primeras 2 letras del nombre al igual se debe agregar la extensión @uamv.edu.ni
+
+
