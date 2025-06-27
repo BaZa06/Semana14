@@ -1,0 +1,12 @@
+admin, Blanca2025
+user1, Clave125
+admin, Blanca2025
+user1, Clave125
+admin, Blanca2025
+user1, Clave125
+admin, Blanca2025
+user1, Clave125
+admin, Blanca2025
+user1, Clave125
+admin,Blanca2025
+user1,Clave125
