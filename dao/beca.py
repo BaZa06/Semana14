@@ -8,7 +8,7 @@ class beca:
         elif self.estudiante > 95 and self.estudiante <= 98:
             print("El estudiante ha obtenido una beca del 75%")
         else:
-            self.estudiante > 98 and self.estudiante <= 100:
+            self.estudiante > 98 and self.estudiante <= 100
             print("El estudiante ha obtenido una beca del 100%")
             
     
