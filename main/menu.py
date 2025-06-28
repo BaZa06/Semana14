@@ -10,7 +10,6 @@ print("1. inicio de sección con contraseña visible")
 print("2. Inicio de sección con contraseña oculta")
 print("3. Incio de sección con usuarios y claves")
 import os
-import getpass
 
 ARCHIVO = "estudiantes.txt"
 CLAVE = "Blanca2025"
@@ -29,7 +28,7 @@ def inicio_visible():
 
 # Segundo ejemplo
 def inicio_oculto():
-    intento = getpass.getpass("Ingrese la clave de acceso: ")
+    intento = getpass.getpass(input("Ingrese la clave de acceso: "))
     if intento == CLAVE:
         print("Acceso concedido")
         return True
@@ -40,11 +39,11 @@ def inicio_oculto():
 # Tercer ejemplo
 def agregar_usuario(usuario, clave):
     with open("usuarios.txt", "a") as archivo:
-        archivo.write(f"{usuario},{clave}\n")
+        archivo.write(f"{usuario}, {clave}\n")
         
 # ejemplo de uso
 agregar_usuario("admin", "Blanca2025")
-agregar_usuario("user1", "Clave125")
+agregar_usuario("Blanca", "Clave125")
 
 # Función para cargar el archivo usuarios.txt
 def cargar_usuarios():
